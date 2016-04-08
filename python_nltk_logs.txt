@@ -1,0 +1,40 @@
+from __future__ import division
+
+def lexical_diversity(text):
+	return len(set(text))/len(text)
+
+def percentage(count,total):
+	return 100*count/total
+
+import nltk
+nltk.download()
+from nltk.book import *
+
+sent1 = ['Call','me','Ishmael','.']
+
+text1
+
+text4.concordance("god")
+
+text3.count("smote")
+
+len(set(text3)) //number of unique tokens in text3
+
+text3.generate() //doesnt work in nltk 3.0
+
+text4.dispersion_plot(["citizens", "democracy", "freedom", "duties", "America"])
+
+text2.common_contexts(["monstrous", "very"])
+
+text1.similar("monstrous")
+
+['Monty', 'Python'] + ['and', 'the', 'Holy', 'Grail'] //concatenation
+
+sent1.append("Some")
+
+sent4 + sent1
+
+text4[173] //for indexing
+
+text4.index('awaken') //to find first occurrence of that word
+

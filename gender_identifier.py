@@ -1,4 +1,4 @@
-#!/usr/bin/python
+#! python3
 
 
 
@@ -13,7 +13,7 @@ import random
 import nltk 
 
 
-names = ([(name,'male') for name in ('C:\Users\ANMOL\Desktop\male.txt')] + [(name,'female') for name in ('C:\Users\ANMOL\Desktop\female.txt')])
+names = ([(name,'male') for name in ('D:\Project_files_notes\Gender-Identifier\male.txt')] + [(name,'female') for name in ('D:\Project_files_notes\Gender-Identifier\female.txt')])
 
 
 
